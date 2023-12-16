@@ -1,0 +1,15 @@
+.search-result {
+  padding: 10px 20px;
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+}
+
+.search-result:hover {
+  background-color: #efefef;
+}
+
+.product-picture {
+  width: 40px !important;
+  height: 40px !important;
+}

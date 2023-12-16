@@ -1,0 +1,63 @@
+.dropdown {
+  width: 728px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 10px;
+  margin-top: 1rem;
+  max-height: 800px;
+  overflow-y: auto;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top:40px;
+  padding-bottom:20px;
+}
+
+.results-list {
+  width: 656px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: 0px 0px 8px #ddd; */
+  border-radius: 10px;
+  margin-top: 1rem;
+  max-height: 300px;
+  overflow-y: auto;
+  /* padding-left: 36px; */
+  /* padding-right: 36px; */
+  /* padding-top:40px; */
+}
+
+.group-line {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  align-items: left;
+  padding-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 8px; /* width of the scrollbar */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #E1E1E1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E1E1E1;
+  border-radius: 6px; /* roundness of the scrollbar handle */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle when it's dragged */
+::-webkit-scrollbar-thumb:active {
+  background: #555;
+}
