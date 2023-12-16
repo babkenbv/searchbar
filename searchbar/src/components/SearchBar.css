@@ -34,5 +34,6 @@ input:focus {
 
 .clearButton {
   outline: none;
+  background-color: white;
   border: none;
 }

@@ -12,15 +12,12 @@ export const SearchBar = ({ setResults }) => {
   const [debouncedValue] = useDebounce(searchValue, 500);
 
   const fetchData = async (value) => {
-    console.log(value);
     const response = await fetch(`https://webapi.tbuy.am/live/?word=${value}`);
     const data = await response.json();
-    console.log(data);
     setResults(data);
   };
 
   const handleChange = ({ target: { value } }) => {
-    console.log(value);
     setSearchValue(value);
   };
 
